@@ -9,7 +9,7 @@ Before running the tests, make sure you have the following prerequisites:
 - Node.js
 - NPM
 
-1. Unzip the file
+1. clone the project : git@github.com:chathurabr/unibench_automation.git
 2. Open the folder Using VS Code
 3. Open the Terminal
 
