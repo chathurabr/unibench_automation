@@ -1,0 +1,26 @@
+{
+  "name": "taxglobal",
+  "version": "1.0.0",
+  "description": "Test Automation for Unibench Assignment",
+  "main": "index.js",
+  "scripts": {
+    "qa": "cross-env test_env=test npx playwright test"
+  },
+  "author": "Chathura Rajapaksha",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^3.0.0-alpha.6",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "unique-names-generator": "^4.7.1"
+  }
+}
